@@ -53,7 +53,7 @@ function Player(props) {
                 setIsPlaying={setIsPlaying}
                 SkipSong={SkipSong}
             />
-            <p><strong>Next up:</strong>{props.songs[props.nextSongIndex].title} by {props.songs[props.nextSongIndex].artist}</p>
+            <p><strong>Next up : </strong>{props.songs[props.nextSongIndex].title} by {props.songs[props.nextSongIndex].artist}</p>
         </div>
     )
 }
